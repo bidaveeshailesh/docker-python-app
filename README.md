@@ -1,64 +1,90 @@
-# docker-python-app
-A beginner-friendly Python application containerized using Docker to practice Docker images, containers, and application deployment.
-# Docker Python App
+# Docker Python Application
 
-## Project Date
+## 📌 Project Overview
 
-2025
+This project demonstrates how to **containerize a Python application using Docker**.
 
-## Project Type
+The application is packaged with its required environment and dependencies so that it can run consistently across different systems.
 
-Practice Project / Learning Project
+## 🏗️ Architecture
 
-## Project Overview
+```text id="y2n8pc"
+Python Application
+       |
+       v
+ Dockerfile
+       |
+       v
+ Docker Image
+       |
+       v
+ Docker Container
+       |
+       v
+ Running Python Application
+```
 
-This project demonstrates how to package a simple Python application
-inside a Docker container.
-
-The project is created to understand the basic concepts of Docker
-and how Python applications can be containerized.
-
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Docker
 - Dockerfile
+- Git & GitHub
 - Linux
 
-## Project Objectives
+## ⚙️ How It Works
 
-- Create a simple Python application
-- Create a Dockerfile
-- Build a Docker image
-- Create and run a Docker container
-- Understand basic containerization
-- Run a Python application inside a container
+1. Create the Python application.
+2. Create a `Dockerfile`.
+3. Define the Python environment and application dependencies.
+4. Build a Docker image.
+5. Create a container from the image.
+6. Run the Python application inside the container.
+7. Test the application.
 
-## Basic Workflow
+## 🐳 Example Docker Commands
 
-Python Application
-        |
-        v
-    Dockerfile
-        |
-        v
-   Docker Image
-        |
-        v
- Docker Container
-        |
-        v
- Python Application Running
+```bash
+docker build -t python-app .
+```
 
-## What I Learned
+```bash
+docker run python-app
+```
 
-- Docker basics
-- Docker images
-- Docker containers
-- Dockerfile
-- Containerizing Python applications
+To view running containers:
+
+```bash
+docker ps
+```
+
+## 📂 Project Structure
+
+```text id="u7r4de"
+docker-python-app/
+│
+├── Dockerfile
+├── app.py
+└── README.md
+```
+
+## 🎯 What I Learned
+
+- Python application containerization
+- Docker images and containers
+- Writing a Dockerfile
+- Building Docker images
+- Running containers
 - Basic Docker commands
+- Application deployment concepts
+- GitHub project documentation
 
-## Project Type
+## 📂 Project Type
 
-Practice Project / Learning Project
+**Python / Docker / Containerization / DevOps**
+
+## 👨‍💻 Author
+
+**Shailesh Bidave**
+
+GitHub: [@bidaveeshailesh](https://github.com/bidaveeshailesh)
